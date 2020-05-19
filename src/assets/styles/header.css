@@ -1,11 +1,10 @@
 .main-header {
-  position: absolute;
-  width: 100vw;
+  display: flex;
   height: 296.71px;
   top: -40.29px;
   background: #928fff;
-  border-radius: 45px;
-  transform: rotate(-0.11deg);
+  border-radius: 0px 0px 45px 45px;
+  transform: rotate(0deg);
 }
 
 .main-header-blob {
@@ -28,7 +27,8 @@
   font-size: 39px;
   line-height: 46px;
   text-align: center;
-  color: #000000;
+  color: #222222;
+  padding: 2px;
 }
 
 * {
