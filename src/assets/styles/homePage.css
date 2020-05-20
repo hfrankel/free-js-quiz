@@ -1,4 +1,20 @@
+.home-page-main {
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+
 .home-page-slug {
   display: flex;
   font-family: Roboto;
+  font-size: 20px;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.home-page-buttons {
+  display: flex;
+  justify-content: space-evenly;
 }
