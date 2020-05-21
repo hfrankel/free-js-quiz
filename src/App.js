@@ -4,6 +4,7 @@ import indexStyles from './assets/styles/index.css';
 import Header from './components/Header';
 import HomePage from './pages/Home';
 import HowItWorksPage from './pages/HowItWorks';
+import QuizPage from './pages/Quiz';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/howitworks" component={HowItWorksPage} />
+          <Route exact path="/quiz" component={QuizPage} />
         </Switch>
       </>
     </Router>
